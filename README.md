@@ -14,7 +14,7 @@
 ### 2. Desarrollo de Aplicacion Movil Android 
 **Descripción:** Una breve descripción de tu segundo proyecto.
 **Tecnologías utilizadas:** Kotlin, Java y MySQL
-**Repositorio:**
+**Repositorio:** https://github.com/FrankYSerrano/BCAndroid_M5.git
 
 
 ## Acerca de Mí

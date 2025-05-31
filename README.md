@@ -13,15 +13,15 @@
 
 ### 2. Desarrollo de Aplicacion Movil Android 
 **Descripción:** Una breve descripción de tu segundo proyecto.
-**Tecnologías utilizadas:** Kotlin, Java, [Tecnología 1], [Tecnología 2], [Tecnología 3]
-**Repositorio:** [Enlace al repositorio del proyecto](URL_DEL_PROYECTO_DOS)
-**Demo:** [Enlace a la demo o despliegue del proyecto](URL_DE_LA_DEMO_DOS)
+**Tecnologías utilizadas:** Kotlin, Java y MySQL
+**Repositorio:**
 
 
 ## Acerca de Mí
-Una breve descripción sobre ti, tus habilidades y tus intereses.
+Ingeniero en Sistemas bilingüe (Inglés/Español) formado en tecnología de información.
+Orientado a la especificación, prueba y certificación de sistemas y aplicaciones bajo los niveles de calidad exigidos.
+Experiencia en Aseguramiento de calidad y automatización de pruebas.
+Capacidad para trabajar en equipo, proactivo, buenas habilidades comunicacionales y capacidad de priorizar.			
 
-**Correo electrónico:** [tuemail@ejemplo.com](mailto:tuemail@ejemplo.com)
-**LinkedIn:** [Enlace a tu perfil de LinkedIn](URL_DE_LINKEDIN)
-**Twitter:** [Enlace a tu perfil de Twitter](URL_DE_TWITTER)
-
+**Correo electrónico:** FrankYSerrano"GMail.Com
+**LinkedIn:** linkedin.com/in/frankyserrano

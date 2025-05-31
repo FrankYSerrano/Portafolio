@@ -9,7 +9,7 @@
   1) Landing Page con información básica (Estática).
   2) Consulta de productos (Interactiva) con las funcionalidades básicas CRUD (Create - Read - Update - Delete).
 **Tecnologías utilizadas:** Python, DJango y PostgreSQL
-**Repositorio:** 
+**Repositorio:** https://github.com/FrankYSerrano/BCAndroid_M5.git
 
 ### 2. Desarrollo de Aplicacion Movil Android 
 **Descripción:** Una breve descripción de tu segundo proyecto.

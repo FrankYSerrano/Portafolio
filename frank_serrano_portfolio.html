@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frank Y. Serrano U. | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background-color: #f4f4f4; color: #333; }
+        header {
+      background: linear-gradient(to right, #004b9b, #ffc107);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    footer { background-color: #222; color: #fff; text-align: center; padding: 1rem 0; }
+    nav, section { padding: 1rem 2rem; }
+    h1, h2 { color: #004080; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .tech-links a { display: block; margin-bottom: 0.3rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 0.6rem; text-align: left; }
+    th { background-color: #e0e0e0; }
+    @media (max-width: 600px) {
+      section { padding: 1rem; }
+      table, thead, tbody, th, td, tr { display: block; }
+      td { border: none; border-bottom: 1px solid #ddd; position: relative; padding-left: 50%; }
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 1rem;
+        font-weight: bold;
+      }
+      th { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FRANK Y. SERRANO U.</h1>
+  </header>
+  
+  <section>
+    <h2>About Me</h2>
+    <p>Bilingual (Spanish/English) Systems Engineer with a solid foundation in IT services, specializing in functional specification, testing, and application certification. Experienced in business applications, distributed control systems, databases, and test automation. Proactive and capable of thriving in multidisciplinary teams, with strong communication skills and a talent for effective task prioritization.</p>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+      <table>
+      <tbody>
+        <tr>
+          <td data-label="Spanish">Native</td>
+          <td data-label="English"><a href="https://cert.efset.org/K1DTsW" target="_blank">EFSet C2 Proficient 78/100</a></td>
+        </tr>
+        <!-- Add more projects here -->
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Technologies</h2>
+    <div class="tech-links">
+      <a href="https://www.acreditta.com/credential/f8807829-4781-4379-bc95-21b2452586da?utm_source=copy&resource_type=badge&resource=f8807829-4781-4379-bc95-21b2452586da" target="_blank">Bootcamp: Android Mobile App Development</a>
+    </div>
+        <div class="tech-links">
+      <a href="https://www.acreditta.com/credential/459ed7b7-dd2c-443c-9369-958a27049013?utm_source=copy&resource_type=badge&resource=459ed7b7-dd2c-443c-9369-958a27049013" target="_blank">Bootcamp: Especialidad DevOps</a>
+    </div>
+    <span>Selenium</span>
+  </section>
+
+  <section>
+    <h2>Projects Developed</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Technologies</th>
+          <th>Visuals</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Project Name">CRUD Web App</td>
+          <td data-label="Technologies Used">HTML, CSS, Python, PostgreSQL, DJango</td>
+          <td data-label="Visuals">[Screenshot or Link]</td>
+        </tr>
+        <tr>
+          <td data-label="Project Name">Mobile App <a href="https://github.com/FrankYSerrano/BCAndroid_M5.git" target="_blank">BCAndroid_M5.git</a></td>
+          <td data-label="Technologies Used">Kotlin, MySQL, APIRest</td>
+          <td data-label="Visuals">[Screenshot or Link]</td>
+        </tr>
+        <tr>
+          <td data-label="Project Name">CRUD APP built using TDD</td>
+          <td data-label="Technologies Used">Java, JUnit</td>
+          <td data-label="Visuals">[Screenshot or Link]</td>
+        </tr>
+        <!-- Add more projects here -->
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>Graduated as Systems Engineer at <a href="https://www.unimet.edu.ve" target="_blank">Universidad Metropolitana, Caracas, Venezuela</a></p>
+  </section>
+
+  <section>
+    <h2>Contact Information</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td data-label="Email">
+            <a href="mailto:FrankYSerrano@GMail.com">FrankYSerrano@GMail.com</a>
+          </td>
+          <td data-label="Phone">
+            <a href="tel:+56XXXXXXXXX">+56 XXX.XXX.XXX</a>
+          </td>
+          <td data-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/frankyserrano" target="_blank">linkedin.com/in/frankyserrano</a>
+          </td>
+          <td data-label="GitHub">
+            <a href="https://github.com/FrankYSerrano" target="_blank">github.com/FrankYSerrano</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    Last updated: July 26, 2025
+  </footer>
+</body>
+</html>

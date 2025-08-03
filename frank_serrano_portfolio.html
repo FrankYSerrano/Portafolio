@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frank Y. Serrano U. | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     * { box-sizing: border-box; }
+    h1 { color: #1e129f; }
+    h2 { color: #008004; }
     body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background-color: #f4f4f4; color: #333; }
         header {
       background: linear-gradient(to right, #004b9b, #ffc107);
@@ -14,8 +17,7 @@
       text-align: center;
     }
     footer { background-color: #222; color: #fff; text-align: center; padding: 1rem 0; }
-    nav, section { padding: 1rem 2rem; }
-    h1, h2 { color: #004080; }
+    nav, section { padding: 1rem 1rem; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .tech-links a { display: block; margin-bottom: 0.3rem; }
@@ -50,26 +52,40 @@
 
   <section>
     <h2>Languages</h2>
-      <table>
-      <tbody>
-        <tr>
-          <td data-label="Spanish">Native</td>
-          <td data-label="English"><a href="https://cert.efset.org/K1DTsW" target="_blank">EFSet C2 Proficient 78/100</a></td>
-        </tr>
-        <!-- Add more projects here -->
-      </tbody>
-    </table>
+      <ul>
+        <li>Spanish (Native)</li>
+        <li>English (C2 Proficient)<a href="https://cert.efset.org/K1DTsW" target="_blank"> EFSet</li>
+      </ul>
   </section>
 
   <section>
-    <h2>Technologies</h2>
-    <div class="tech-links">
-      <a href="https://www.acreditta.com/credential/f8807829-4781-4379-bc95-21b2452586da?utm_source=copy&resource_type=badge&resource=f8807829-4781-4379-bc95-21b2452586da" target="_blank">Bootcamp: Android Mobile App Development</a>
-    </div>
-        <div class="tech-links">
-      <a href="https://www.acreditta.com/credential/459ed7b7-dd2c-443c-9369-958a27049013?utm_source=copy&resource_type=badge&resource=459ed7b7-dd2c-443c-9369-958a27049013" target="_blank">Bootcamp: Especialidad DevOps</a>
-    </div>
-    <span>Selenium</span>
+    <h2>Methodologies</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <img src="images/Agile.svg" alt="Agile Logo" width="60" style="vertical-align: middle; margin-right: 8px;">
+            AGILE
+          </td>
+          <td>
+            <img src="images/Scrum.svg" alt="Scrum Logo" width="60" style="vertical-align: middle; margin-right: 8px;">
+            SCRUM
+          </td>
+        </tr>
+        <tr>
+          <td><img src="images/Itil.svg" alt="ITIL Logo" width="60" style="vertical-align: middle; margin-right: 8px;">
+            ITIL
+          </td>
+          <td><img src="images/Waterfall.svg" alt="Waterfall Logo" width="60" style="vertical-align: middle; margin-right: 8px;">
+            Waterfall
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+
+
+    </ul>
   </section>
 
   <section>
@@ -84,19 +100,29 @@
       </thead>
       <tbody>
         <tr>
-          <td data-label="Project Name">CRUD Web App</td>
-          <td data-label="Technologies Used">HTML, CSS, Python, PostgreSQL, DJango</td>
-          <td data-label="Visuals">[Screenshot or Link]</td>
+          <td data-label="Project Name"><a href="https://github.com/FrankYSerrano/BAP_M4L7.git" target="_blank">Java Selenium Web Driver Testing</a> </td>
+          <td data-label="Technologies Used">Java, TestNG</td>
+          <td data-label="Visuals">
+            <video width="320" controls>
+            <source src="videos/ScreenRec.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </td>
         </tr>
         <tr>
-          <td data-label="Project Name">Mobile App <a href="https://github.com/FrankYSerrano/BCAndroid_M5.git" target="_blank">BCAndroid_M5.git</a></td>
+          <td data-label="Project Name"><a href="https://github.com/FrankYSerrano/BCAndroid_M5.git" target="_blank">Java CRUD APP</a> built using TDD Approach</td>
+          <td data-label="Technologies Used">Java, JUnit, Jacoco, MySql</td>
+          <td data-label="Visuals">[Screenshots]</td>
+        </tr>
+        <tr>
+          <td data-label="Project Name">Android Mobile App <a href="https://github.com/FrankYSerrano/BCAndroid_M5.git" target="_blank">AlkeWallet</a></td>
           <td data-label="Technologies Used">Kotlin, MySQL, APIRest</td>
-          <td data-label="Visuals">[Screenshot or Link]</td>
+          <td data-label="Visuals">[Screenshots]</td>
         </tr>
         <tr>
-          <td data-label="Project Name">CRUD APP built using TDD</td>
-          <td data-label="Technologies Used">Java, JUnit</td>
-          <td data-label="Visuals">[Screenshot or Link]</td>
+          <td data-label="Project Name">CRUD Web <a href="https://github.com/FrankYSerrano/BCPython_EvalM3.git" target="_blank">APP</a></td>
+          <td data-label="Technologies Used">HTML, CSS, Python, PostgreSQL, DJango</td>
+          <td data-label="Visuals">[Screenshots]</td>
         </tr>
         <!-- Add more projects here -->
       </tbody>
@@ -105,7 +131,59 @@
 
   <section>
     <h2>Education</h2>
-    <p>Graduated as Systems Engineer at <a href="https://www.unimet.edu.ve" target="_blank">Universidad Metropolitana, Caracas, Venezuela</a></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Accomplishment</th>
+          <th>Institution</th>
+          <th>Certificate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Year">2025</td>
+          <td data-label="Degree">Test Automation Trainee Bootcamp</td>
+          <td data-label="Institution"><a href="" target="_blank">Talento Digital para Chile</a></td>
+          <td data-label="Certificate"><a href="" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" alt="Selenium Logo" width="24" style="vertical-align: middle; margin-right: 8px;">
+            (In Progress)</a></td>
+        </tr>
+        <tr>
+          <td data-label="Year">2024</td>
+          <td data-label="Degree">Android Applications Development Trainee Bootcamp</td>
+          <td data-label="Institution"><a href="" target="_blank">Talento Digital para Chile</a></td>
+          <td data-label="Certificate"><a href="https://www.acreditta.com/credential/f8807829-4781-4379-bc95-21b2452586da?utm_source=copy&resource_type=badge&resource=f8807829-4781-4379-bc95-21b2452586da" target="_blank">
+            <i class="fab fa-android" style="color: #04833d; margin-right: 8px;"></i> Android
+            Badge</a></td>
+        </tr>
+        <tr>
+          <td data-label="Year">2023</td>
+          <td data-label="Degree">DevOps Specialization Bootcamp</td>
+          <td data-label="Institution"><a href="" target="_blank">Talento Digital para Chile</a></td>
+          <td data-label="Certificate"><a href="https://www.acreditta.com/credential/459ed7b7-dd2c-443c-9369-958a27049013?utm_source=copy&resource_type=badge&resource=459ed7b7-dd2c-443c-9369-958a27049013" target="_blank">
+            <i class="fas fa-cogs"></i> DevOps
+            Badge</a></td>
+        </tr>
+        <tr>
+          <td data-label="Year">2021</td>
+          <td data-label="Degree">Web Applications Fullstack development PYTHON Trainee Bootcamp</td>
+          <td data-label="Institution"><a href="" target="_blank">Talento Digital para Chile</a></td>
+          <td data-label="Certificate"><a href="CertPythonTrainee" target="_blank">
+            <i class="fab fa-python"></i>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" alt="Django Logo" width="24" style="vertical-align: middle; margin-right: 8px;">
+            Certificate</a></td>
+        </tr>
+        <tr>
+          <td data-label="Year">1997</td>
+          <td data-label="Degree">Systems Engineer</td>
+          <td data-label="Institution"><a href="https://www.unimet.edu.ve" target="_blank">Universidad Metropolitana, Caracas, Venezuela</a></td>
+          <td data-label="Certificate"><a href="MiTituloIng" target="_blank">
+            <img src="images/Unimet.svg" width="120" style="vertical-align: middle; margin-right: 8px;">
+            Diploma</a></td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section>
@@ -114,16 +192,25 @@
       <tbody>
         <tr>
           <td data-label="Email">
-            <a href="mailto:FrankYSerrano@GMail.com">FrankYSerrano@GMail.com</a>
+            <a href="mailto:FrankYSerrano@GMail.com">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail Icon" width="20" style="vertical-align: middle; margin-right: 8px;">
+              FrankYSerrano@GMail.com</a>
           </td>
           <td data-label="Phone">
-            <a href="tel:+56XXXXXXXXX">+56 XXX.XXX.XXX</a>
+            <a href="tel:+56XXXXXXXXX">
+              <i class="fab fa-whatsapp" style="color: green; margin-right: 8px;"></i>
+              +56 XXX.XXX.XXX</a>
           </td>
           <td data-label="LinkedIn">
-            <a href="https://www.linkedin.com/in/frankyserrano" target="_blank">linkedin.com/in/frankyserrano</a>
+            <a href="https://www.linkedin.com/in/frankyserrano" target="_blank">
+              <i class="fab fa-linkedin"></i>
+              https://www.linkedin.com/in/frankyserrano</a>
           </td>
+
           <td data-label="GitHub">
-            <a href="https://github.com/FrankYSerrano" target="_blank">github.com/FrankYSerrano</a>
+            <a href="https://github.com/FrankYSerrano" target="_blank">
+              <i class="fab fa-github"></i> github.com/FrankYSerrano
+            </a>
           </td>
         </tr>
       </tbody>
